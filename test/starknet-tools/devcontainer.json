@@ -1,0 +1,7 @@
+{
+    "name": "starknet-tools",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "./src/starknet-tools": {}
+    }
+}

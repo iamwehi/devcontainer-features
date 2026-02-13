@@ -1,0 +1,18 @@
+{
+    "starknet_tools_compatible": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "starknet-tools": {
+                "version": "compatible"
+            }
+        }
+    },
+    "starknet_tools_latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "starknet-tools": {
+                "version": "latest"
+            }
+        }
+    }
+}

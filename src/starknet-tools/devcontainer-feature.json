@@ -1,0 +1,20 @@
+{
+    "name": "Starknet Tools",
+    "id": "starknet-tools",
+    "version": "0.2.0",
+    "description": "Installs Scarb, Starknet Foundry, Cairo coverage/profiler, Devnet, and Universal Sierra Compiler via starkup.",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "compatible",
+                "latest"
+            ],
+            "default": "compatible",
+            "description": "Install a compatible set of tool versions or the latest available versions."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
