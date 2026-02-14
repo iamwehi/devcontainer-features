@@ -1,22 +1,13 @@
+
 # Starknet Tools (starknet-tools)
 
-Installs Scarb, Starknet Foundry, Cairo coverage/profiler, Devnet, and Universal Sierra Compiler via [starkup](https://github.com/software-mansion/starkup).
+Installs Scarb, Starknet Foundry, Cairo coverage/profiler, Devnet, and Universal Sierra Compiler via starkup.
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/iamwehi/devcontainer-features/starknet-tools:1": {}
-}
-```
-
-To install the latest (possibly incompatible) versions:
-
-```json
-"features": {
-    "ghcr.io/iamwehi/devcontainer-features/starknet-tools:1": {
-        "version": "latest"
-    }
+    "ghcr.io/iamwehi/devcontainer-features/starknet-tools:0": {}
 }
 ```
 
@@ -26,6 +17,8 @@ To install the latest (possibly incompatible) versions:
 |-----|-----|-----|-----|
 | version | Install a compatible set of tool versions or the latest available versions. | string | compatible |
 
+
+
 ---
 
-_Note: This file was auto-generated from the devcontainer-feature.json file. Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/iamwehi/devcontainer-features/blob/main/src/starknet-tools/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
